@@ -6,4 +6,4 @@
 [submodule "src"]
 	path = src
 	url = https://github.com/radxa/kernel.git
-	tag = linux-next-20250528-radxa-dragon
+	branch = linux-next-20250528-radxa-dragon
