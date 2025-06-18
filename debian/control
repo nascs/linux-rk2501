@@ -237,3 +237,33 @@ Depends: linux-libc-dev-${binary:Version}-rk2501,
          ${misc:Depends},
 Description: Radxa Linux libc-dev meta-package for ROCK 4SE
  This is the meta-package for Linux libc-dev.
+
+Package: linux-image-dragon-q6a
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-image
+Depends: linux-image-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux meta-package for DRAGON Q6A
+ This is the meta-package for Linux kernel.
+
+Package: linux-headers-dragon-q6a
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-headers
+Depends: linux-headers-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux headers meta-package for DRAGON Q6A
+ This is the meta-package for Linux headers.
+
+Package: linux-libc-dev-dragon-q6a
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-libc-dev
+Depends: linux-libc-dev-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux libc-dev meta-package for DRAGON Q6A
+ This is the meta-package for Linux libc-dev.
