@@ -5,5 +5,5 @@
 
 [submodule "src"]
 	path = src
-	url = https://github.com/nassc/kernel.git
-	branch = linux-next-20250528-radxa-dragon
+	url = https://github.com/radxa/kernel.git
+	branch = linux-next-20250528
