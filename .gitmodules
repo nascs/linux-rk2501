@@ -1,4 +1,9 @@
+# [submodule "src"]
+# 	path = src
+# 	url = https://github.com/radxa/kernel.git
+# 	# branch = linux-6.1-stan-rkr5.1
+
 [submodule "src"]
 	path = src
 	url = https://github.com/radxa/kernel.git
-	branch = linux-6.1-stan-rkr5.1
+	tag = linux-next-20250528-radxa-dragon
